@@ -9,9 +9,13 @@ const datosSelector = document.querySelector("#datospersonales");
 
 // Implementando la Asignación con AND lógico (&&)
 let isOnline = false
-const pregunta = prompt("¿ESTAS CONECTADO? SI o NO")
+let respuesta = prompt("¿ESTÁS CONECTADO? SI o NO").toUpperCase();
 
-if(pregunta.toUpperCase() == 'SI'){
+while (respuesta !== 'SI' && respuesta !== 'NO') {
+    respuesta = prompt("Por favor, ingresa solo SI o NO, ¿ESTÁS CONECTADO?").toUpperCase();
+}
+
+if(respuesta == 'SI'){
     isOnline = true
     console.log(isOnline)
     const templateDatos = `
