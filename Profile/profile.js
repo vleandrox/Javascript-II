@@ -27,3 +27,5 @@ if(respuesta == 'SI'){
     console.log(isOnline)
     window.alert("USUARIO ESTA DESCONECTADO !!!")
 }
+
+//Implementando el Encadenamiento opcional
