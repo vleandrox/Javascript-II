@@ -4,6 +4,7 @@ const profesion = "Ingeniero de Sistemas"
 const ubicacion = "Huacho"
 const hobby = "Videojuegos"
 
+
 const datosSelector = document.querySelector("#datospersonales");
 // console.log(datosSelector)
 
@@ -29,5 +30,3 @@ if(respuesta == 'SI'){
     console.log(isOnline)
     window.alert("USUARIO ESTA DESCONECTADO !!!")
 }
-
-//Implementando el Encadenamiento opcional
