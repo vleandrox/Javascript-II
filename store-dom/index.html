@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Virtual</title>
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- Agregando Fuentes GoogleFonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+
+  <!-- Incluir SweetAlert desde un CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <header>
+    <div class="search">
+      <a class="logo" href="./index.html">
+        <img src="assets/tiendamia-logo.svg" width="218" alt="Logo store">
+      </a>
+      <div class="form">
+        <form id="search">
+          <!-- <input type="text" placeholder="Search" id="search" /> -->
+        </form>
+      </div>
+      <div class="social">
+        <ul>
+          <li><a href="#" id="" class=""><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#" id="" class=""><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="" id="iconoUsuario" class="iconoUsuario"><i class="fa-solid fa-circle-user"></i></a></li>
+          <li><a href="cart.html" id="iconoCarrito" class="iconoCarrito hidden"><i
+                class="fa-solid fa-cart-shopping"></i></a></li>
+          <li><a href="" id="iconoPerfil" class="iconoPerfil hidden"><i class="fa-solid fa-user-check"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav" id="nav">
+      <!-- renderizado -->
+    </div>
+  </header>
+  <section id="hero">
+    <div class="container">
+      <div class="title-container">
+        <span>Tecnología</span>
+        <span>Renovada</span>
+      </div>
+    </div>
+  </section>
+  <main>
+    <div class="container">
+      <div class="product-container" id="products">
+ <!-- renderizado -->
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="columns-container" id="footer">
+         <!-- renderizado -->
+      </div>
+      <div class="copyright">Curso de HTML + CSS 2023</div>
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/layouts.js"></script>
+  <script src="scripts/products.js"></script>
+  <script src="scripts/productCards.js"></script>
+  <script src="scripts/filterProduct.js"></script>
+</body>
+
+</html>
