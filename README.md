@@ -8,5 +8,5 @@
 - Configuraciones
 
 ```js
-Clonar el documento y verificar 
+    Clonar el documento y verificar 
 ```
